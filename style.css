@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f7ff;
+    color: #24213b;
+    text-align: center;
+}
+
+header {
+    background: white;
+    padding: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header h1 {
+    color: #6441d9;
+    font-size: 30px;
+}
+
+header h1 span {
+    color: #ff7a59;
+}
+
+nav a {
+    text-decoration: none;
+    color: #24213b;
+    margin: 10px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #e8ddff, #d5f5ee);
+    padding: 85px 15px;
+}
+
+.tag {
+    color: #6441d9;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    line-height: 1.7;
+}
+
+.btn {
+    display: inline-block;
+    background: #6441d9;
+    color: white;
+    padding: 13px 22px;
+    border-radius: 6px;
+    margin-top: 22px;
+    text-decoration: none;
+}
+
+section {
+    padding: 45px 15px;
+}
+
+section h2 {
+    margin-bottom: 25px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    width: 245px;
+    padding: 28px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #e5e0f3;
+}
+
+.card h3 {
+    color: #6441d9;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+.work {
+    background: #24213b;
+    color: white;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    flex-wrap: wrap;
+}
+
+.stats h3 {
+    color: #ffb36b;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    line-height: 1.7;
+}
+
+footer {
+    background: #171529;
+    color: white;
+    padding: 22px;
+}
+
+@media (max-width: 600px) {
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .stats {
+        gap: 25px;
+    }
+}
